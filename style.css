@@ -1,3 +1,4 @@
+/* Общая стилистика */
 body {
   font-family: Arial, sans-serif;
   font-size: 18px;
@@ -9,6 +10,7 @@ p {
   text-indent: 20px;
 }
 
+/* Стилистика различных классов */
 .title {
   text-align: center;
   font-weight: 700;
@@ -42,4 +44,31 @@ ul {
 .table td {
   border: 1px solid #000;
   padding: 5px;
+}
+
+/* Блочные элементы */
+
+.page-for-example {
+  width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+
+  background-color: rgb(255, 235, 197);
+}
+
+.content-block {
+  background-color: rgb(228, 186, 137);
+}
+
+.footer-block {
+  color: white;
+  background-color: rgb(160, 123, 75);
+}
+
+.text-red {
+  color: #ce2424;
+  font-weight: 700;
+  font-style: italic;
+  /* margin: 50px; Отступы для span только слева/справа показывается */
+  /* display: inline-block; */
 }
